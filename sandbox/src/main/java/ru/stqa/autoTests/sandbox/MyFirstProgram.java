@@ -1,7 +1,5 @@
 package ru.stqa.autoTests.sandbox;
 
-import java.sql.SQLOutput;
-
 public class MyFirstProgram{
 
   public static void main(String[] args){
@@ -14,8 +12,8 @@ public class MyFirstProgram{
 
   }
 
-  public static void hello (String sombody) {
-    System.out.println("hello, "+ sombody + "!");
+  public static void hello (String somebody) {
+    System.out.println("hello, "+ somebody + "!");
   }
 
 }
