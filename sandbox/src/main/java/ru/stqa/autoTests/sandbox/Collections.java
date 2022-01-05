@@ -27,5 +27,10 @@ public class Collections {
         for (int i = 0; i < languages.size(); i++) {
             System.out.println("Я хочу выучить " + languages.get(i));
         }
+        List<String> languagesNew = Arrays.asList("Java","C#","Python","PHP"); // преобразованиие массива в список
+
+        for (String l : languagesNew) {
+            System.out.println("Я хочу выучить " + l);
+        }
     }
 }
