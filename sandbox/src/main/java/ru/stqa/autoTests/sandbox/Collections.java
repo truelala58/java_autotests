@@ -22,7 +22,7 @@ public class Collections {
  /*       for (String l : languages) {
             System.out.println("Я хочу выучить " + l);
         }*/
-        List<String> languages = Arrays.asList("Java","C#","Python","PHP");
+        List<String> languages = Arrays.asList("Java","C#","Python","PHP"); // преобразованиие массива в список
 
         for (int i = 0; i < languages.size(); i++) {
             System.out.println("Я хочу выучить " + languages.get(i));
